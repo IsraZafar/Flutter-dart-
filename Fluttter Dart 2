@@ -1,0 +1,160 @@
+Question no #1
+Create two integer variables length and breadth and assign values then check if they are square values or rectangle values.
+i.e: if both values are equal then it's square otherwise rectangle.
+void main(){
+  int length = 45;
+  int breath = 55;
+  if (length == breath){
+    print ("square");
+  }
+  else{
+    print ("rectangle");
+  }
+}
+
+
+
+Question no # 2
+Take two variables and store age then using if/else condition to determine oldest and youngest among them.
+void main() {
+  int age1 = 55;
+  int age2 =65;
+   if(age1<age2){
+     print ("first one is younger");
+   }
+  else if (age1==age2){
+    print ("both age is same ");
+  }
+  else{
+    print ("second is younger");
+  }
+}
+
+
+Question no # 3
+ A student will not be allowed to sit in exam if his/her attendance is less than 75%. Create integer variables and assign value:
+Number of classes held = 16,
+Number of classes attended = 10,
+and print percentage of class attended.
+Is student is allowed to sit in exam or not?
+
+void main(){
+  int classes = 16;
+  int attended = 10;
+  double percentage = attended/classes*100;
+  print ("percentage of class attended ;$percentage");
+  if (percentage<75){
+    print ("Not Allowed");
+  }
+  else{
+    print ("Allowed");
+  }
+  
+}
+ 
+Question no # 4 
+Create integer variable assign any year to it and check if a year is leap year or not.
+If a year is divisible by 4 then it is leap year but if the year is century year like 2000, 1900, 2100 then it must be divisible by 400.
+i.e: Use % ( modulus ) operator?
+
+void main() {
+  int year = 2020;
+  double check = year%4;
+  if (check ==0){
+    print ("leap year");
+  }
+  else{
+  print ("not leap year");
+}
+  }
+
+Question no # 5 
+ Write a program to read temperature in centigrade and display a suitable message according to temperature:
+You have num variable temperature = 42;
+Now print the message according to temperature:
+temp < 0 then Freezing weather
+temp 0-10 then Very Cold weather
+temp 10-20 then Cold weather
+temp 20-30 then Normal in Temp
+temp 30-40 then Its Hot
+temp >=40 then Its Very Hot ?
+
+void main (){
+ var int = 25;
+  var tempreture = 42;
+ (" print tempreture = 25");
+ num temp = (0 + 42);
+  ("print freezing whether");
+  int  = (0-10);
+  ("print  very cold whether");
+  int = (10-20);
+  ("print cold whether");
+  int =(20-30);
+  ("print normal temp");
+int =(30-40);
+  ("print Hot temp");
+  int = (40);
+  ("print very Hot"); 
+}
+ 
+
+Question no # 6
+Write a program to check whether an alphabet is a vowel or consonant.
+
+void main (){
+  string alphabat = "u";
+  if (alphabat=="a"||alphabat == "e"|| alphabat=="i"|| alphabat =="o" || alphabat == "u"){
+    print ("alphabat is a vowel");
+  }
+  else{
+    print("Alphabat is a consonant");
+  }
+  } 
+
+
+  
+Question no # 7
+Write a program to calculate and print the Electricity bill of a given customer. Create variable for customer id,
+name, unit consumed by the user, bill_amount and print the total amount the customer needs to pay. The charge are as follow :
+
+Unit    Charge/unit
+upto 199    @1.20
+200 and above but less than 400    @1.50
+400 and above but less than 600    @1.80
+600 and above             @2.00;
+
+Test Data :
+id: 1001
+name: James
+units: 800
+Expected Output :
+Customer IDNO :1001
+Customer Name :James
+unit Consumed :800
+Amount Charges @Rs. 2.00 per unit : 1600.00
+Net Bill Amount : 1600.00
+
+
+void main (){
+  int bill  = 3000;
+  ("print bill is 3000");
+  
+  var id =4444;
+  ("print id is 4444");
+  
+  var name  = ("john");
+  ("print name is john");
+  
+  var unit = 700;
+  ("print unit is 700");
+  
+  var charge = 1600;
+  ("print charge amount is @Rs 2.00 per unit");
+  
+  var total  = 8000;
+  ("print total that can pay constomer is 8000");
+   
+}
+
+
+
